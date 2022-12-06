@@ -18,14 +18,18 @@
     box-shadow: 1px 1px 5px;
     background-color: aqua;
 }
+body{
+    background-color: rgb(82, 52, 163);
+}
 
 .container {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     margin: 0 auto;
 }
 
 .content-boxes {
+    margin-top: 5rem;
     width: 100%;
     height: 100%;
     display: flex;
