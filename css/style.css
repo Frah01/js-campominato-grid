@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-background {
+    background-color: rgba(8,59,76,255);
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px;
+    background-color: aqua;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.content-boxes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.box-green {
+    background-color: rgba(12,214,161,255)
+}
+
+.box-red {
+    background-color: rgba(240,70,111,255)
+}
