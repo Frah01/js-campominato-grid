@@ -9,7 +9,7 @@ function squares(){
 
 
 let contentboxes = document.getElementById('content-box')
-let document.getElementById
+
 
 for(let i = 1; i<=100 ; i++){
     const numeri = i
