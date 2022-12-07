@@ -18,12 +18,9 @@ contentboxes.innerHTML= " "
         const createboxes= squares();
         createboxes.innerText += numeri
         contentboxes.appendChild(createboxes);
-        
         createboxes.addEventListener('click', function(){
         console.log(this.innerText)
-        
-        this.classList.add('pulsante')
-        
+        this.classList.toggle('pulsante')
         })
     }
 })
