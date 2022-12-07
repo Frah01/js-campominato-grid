@@ -10,7 +10,7 @@ function squares(){
 let bottone = document.getElementById('spawn')
 let contentboxes = document.getElementById('content-box')
 bottone.addEventListener('click', function(){
-document.getElementById('content-box').innerHTML = " "
+contentboxes.innerHTML= " "
     for(let i = 1; i<=100 ; i++){
         const numeri = i
         const createboxes= squares();
