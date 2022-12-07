@@ -11,6 +11,8 @@ let bottone = document.getElementById('spawn')
 let contentboxes = document.getElementById('content-box')
 bottone.addEventListener('click', function(){
 contentboxes.innerHTML= " "
+
+
     for(let i = 1; i<=100 ; i++){
         const numeri = i
         const createboxes= squares();
@@ -18,9 +20,9 @@ contentboxes.innerHTML= " "
         contentboxes.appendChild(createboxes);
         
         createboxes.addEventListener('click', function(){
+        console.log(this.innerText)
         
         this.classList.add('pulsante')
-        console.log(createboxes.innerText)
         
         })
     }
